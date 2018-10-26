@@ -20,30 +20,30 @@ public class DecisionStructureLab {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner wif= new Scanner(System.in);
-        System.out.println("hello there traveler welcome to copyright infringement"
+        System.out.println("hello there traveler welcome to copyright infringement."
                 + ", would you like to QUIT or"
-                + " STAY and try and win");
+                + " STAY and try and win!");
         out.print("I will...");
         String answer1;
         answer1=wif.nextLine();
 
         if ("QUIT".equals(answer1)){
-            out.println("good choice but to do that you have to press x");
+            out.println("good choice you must press x now or die.");
         } else {
-            out.println("too bad there isnt any game left please exit");
+            out.println("too bad there isnt any game left please exit.");
         }
         //part 2
-        out.println("seriously im asking you to leave theres no game left");
-        out.print("ok fine pick a sword (gold/wood)");
+        out.println("seriously im asking you to leave theres no game left.");
+        out.print("ok fine pick a sword (gold/steel).");
         String answer2;
         answer2=wif.nextLine();
-        if ("wood".equals(answer2)){
-            out.println("ok you picked the obvoius good sword but your getting gold");
+        if ("steel".equals(answer2)){
+            out.println("ok you picked the obvoius good sword but your getting gold.");
         } else {
-            out.println("so you were born with more than 2 chromosomes");
+            out.println("so you were born with more than 4 chromosomes.");
         }
         out.println("now with your gold sword you will fight the evil that the "
-                + "cops cant deal with aka the frogs on the street");
+                + "cops cant deal with aka the frogs on the street.");
         
     }
 }
